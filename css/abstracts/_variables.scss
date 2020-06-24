@@ -1,0 +1,14 @@
+$color-primary: #EE4444;
+$color-secondary: #001144;
+$color-highlight: #50e3c2;
+$color-primary-dark: darken($color-primary,10%);
+
+.text-primary { color: $color-primary!important; }
+.text-secondary { color: $color-secondary!important; }
+.text-highlight { color: $color-highlight!important; }
+.text-primary-dark { color: $color-primary-dark!important; }
+
+.bg-primary { background-color: $color-primary!important; }
+.bg-secondary { background-color: $color-secondary!important; }
+.bg-highlight { background-color: $color-highlight!important; }
+.bg-primary-dark { background-color: $color-primary-dark!important; }

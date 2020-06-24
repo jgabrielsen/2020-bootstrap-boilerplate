@@ -1,0 +1,32 @@
+.btn {
+	border-radius: 2rem;
+	text-transform: uppercase;
+	font-size: .825rem;
+	font-family: 'Lato', sans-serif;
+	padding: .5rem 1rem .375rem;
+}
+
+.btn-primary {
+	background-color: $color-primary;
+	border-color: $color-primary;
+	&:hover,&.active {
+		background-color: darken($color-primary,10%);
+		border-color: darken($color-primary,10%);
+	}
+}
+.btn-secondary {
+	background-color: $color-secondary;
+	border-color: $color-secondary;
+	&:hover,&.active {
+		background-color: darken($color-secondary,10%);
+		border-color: darken($color-secondary,10%);
+	}
+}
+.btn-highlight {
+	background-color: $color-highlight;
+	border-color: $color-highlight;
+	&:hover,&.active {
+		background-color: darken($color-highlight,10%);
+		border-color: darken($color-highlight,10%);
+	}
+}

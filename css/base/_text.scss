@@ -1,0 +1,23 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Space Mono', monospace;
+	font-weight: 700;
+	font-style: italic;
+	color: $color-primary;
+
+}
+
+blockquote {
+	padding: 1rem;
+	border-left: 3px solid #eee;
+}
+
+a, .btn-link {
+	color: $color-primary;
+	&:hover, &:active {
+		color: darken($color-primary,10%);
+	}
+}
